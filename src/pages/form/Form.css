@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8FF;
+}
+
+.title {
+    text-align: left;
+    width: 30vw;
+    padding: 0 15px;
+    font-size: 1.7rem;
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30vw;
+    padding: 0 15px;
+    border-radius: 0 0 10px 10px;
+}
+
+.input {
+    border: 1px solid #3B4E32;
+    padding: 15px 15px;
+    outline: none;
+    margin: 5px;
+}
+
+.input:first-child {
+    border-radius: 0 15px 0 0;
+}
+
+button {
+    background-color: #3B4E32;
+    color: #F8F8FF;
+    border-radius:0 0 0 15px;
+    padding: 15px 15px;
+    margin: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.redirect-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: #3B4E32;
+}
+
+.icon-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
